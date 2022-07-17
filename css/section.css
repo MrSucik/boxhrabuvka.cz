@@ -1,62 +1,61 @@
-
 #main {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
 }
 
-    #main h6 {
-        background: rgba(0, 0, 0, 0.3);
-        top: 30%;
-        font-size: 6em;
-        position: relative;
-    }
+#main h6 {
+  background: rgba(0, 0, 0, 0.3);
+  top: 30%;
+  font-size: 6em;
+  position: relative;
+}
 
-    #main h2 {
-        background: rgba(0, 0, 0, 0.3);
-        top: 30%;
-        font-size: 3em;
-        position: relative;
-    }
+#main h2 {
+  background: rgba(0, 0, 0, 0.3);
+  top: 30%;
+  font-size: 3em;
+  position: relative;
+}
 
-    #main #logoimg {
-        width: 5%;
-        left: 47.5%;
-        top: 90%;
-        cursor: pointer;
-        position: absolute;
-    }
+#main #logoimg {
+  width: 5%;
+  left: 47.5%;
+  top: 90%;
+  cursor: pointer;
+  position: absolute;
+}
 
 .light {
-    height: 80%;
-    width: 80%;
-    margin: 10%;
-    background: rgba(255, 255, 255, 0.5);
+  height: 80%;
+  width: 80%;
+  margin: 10%;
+  background: rgba(255, 255, 255, 0.5);
 }
 
-    .light:hover {
-        background: rgba(255, 255, 255, 0.7);
-    }
+.light:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
 
 .section {
-    width: calc(100% - 32px);
-    overflow: auto;
-    padding: 16px;
-    background: url("../images/bg-about.jpg") no-repeat fixed;
-    background-size: cover;
+  width: calc(100% - 32px);
+  overflow: auto;
+  padding: 16px;
+  background: url("../images/bg-about.jpg") no-repeat fixed;
+  background-size: cover;
 }
 
 h1 {
-    height: 25%;
-    font-size: 6em;
+  height: 25%;
+  font-size: 6em;
 }
 
 p {
-    font-size: 1em;
-    line-height: 1.5;
-    width: 80%;
-    margin: 0 10% 0 10%;
+  font-size: 1em;
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 10% 0 10%;
 }
 
 b {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }

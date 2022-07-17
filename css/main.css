@@ -1,76 +1,80 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik);
 
 * {
-    color: white;
-    margin: 0;
-    padding: 0;
-    font-family: 'Rubik';
-    text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+  text-align: center;
 }
 
 #main {
-    background: url("../images/bg.jpg") no-repeat fixed;
-    background-size: cover;
+  background: url("../images/bg.jpg") no-repeat fixed;
+  background-size: cover;
 }
-    #main .banner1 {
-        height:30%;
-        left: 5%;
-        bottom: 10%;
-        position: absolute;
-    }
-    #main .banner2 {
-        height: 30%;
-        right:15%;
-        bottom: 10%;
-        position: absolute;
-    }
+#main .banner1 {
+  height: 30%;
+  left: 5%;
+  bottom: 10%;
+  position: absolute;
+}
+#main .banner2 {
+  height: 30%;
+  right: 15%;
+  bottom: 10%;
+  position: absolute;
+}
 
-#about, #nabor {
-    background: url("../images/bg-about.jpg") no-repeat fixed;
-    background-size: cover;
+#about,
+#nabor {
+  background: url("../images/bg-about.jpg") no-repeat fixed;
+  background-size: cover;
 }
-#rozpis, #school, #prices {
-    background: url("../images/bg-rozpis.png") no-repeat fixed;
-    background-size: cover;
+#rozpis,
+#school,
+#prices {
+  background: url("../images/bg-rozpis.png") no-repeat fixed;
+  background-size: cover;
 }
 #contact {
-    background: url("../images/bg-contact.jpg") no-repeat fixed;
-    background-size: cover;
+  background: url("../images/bg-contact.jpg") no-repeat fixed;
+  background-size: cover;
 }
-#contact h2{
-    text-align:center;
-    font-size:2.5em;
+#contact h2 {
+  text-align: center;
+  font-size: 2.5em;
 }
-#contact p{
-    font-size:1.1em;
+#contact p {
+  font-size: 1.1em;
 }
-.row3{
-    width:25%;
-    float:left;
+.row3 {
+  width: 25%;
+  float: left;
 }
-.row3:first-of-type{
-    margin-left:10%;
+.row3:first-of-type {
+  margin-left: 10%;
 }
-.row3 p{
-    font-size:1.2em;
+.row3 p {
+  font-size: 1.2em;
 }
-.row3 h2{
-    font-size:1.8em;
+.row3 h2 {
+  font-size: 1.8em;
 }
 .row2 {
-    width: 35%;
-    float: left;
+  width: 35%;
+  float: left;
 }
-.row2 h2, li{
-    text-align:left;
+.row2 h2,
+li {
+  text-align: left;
 }
-    .row2:first-of-type {
-        margin: 0 5% 0 10%;
-    }
-.row4{
-    width:20%;
-    float:left;
+.row2:first-of-type {
+  margin: 0 5% 0 10%;
 }
-.row4:first-of-type{
-    margin-left:10%;
+.row4 {
+  width: 20%;
+  float: left;
+}
+.row4:first-of-type {
+  margin-left: 10%;
 }
